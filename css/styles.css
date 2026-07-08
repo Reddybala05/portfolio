@@ -126,13 +126,13 @@ a:hover {
 	text-decoration: underline;
 }
 
-.no-line {
-	text-decoration: none;
-}
 
 .no-line:hover {
 	text-decoration: none;
+}.no-line {
+	text-decoration: none;
 }
+
 
 .blue {
 	color: #2259ec;
@@ -424,7 +424,7 @@ input[type='checkbox'] {
 	margin-bottom: 0.5rem;
 }
 
-.navbar .nav-item .nav-link {
+.navbar  .nav-item .nav-link {
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
 	color: #ffffff;
@@ -438,7 +438,7 @@ input[type='checkbox'] {
 	color: #9c9ead;
 }
 
-/* Dropdown Menu */
+ /* Dropdown Menu */
 .navbar .dropdown .dropdown-menu {
 	animation: fadeDropdown 0.2s; /* required for the fade animation */
 }
@@ -482,7 +482,7 @@ input[type='checkbox'] {
 	border: none;
 	background-color: #505050;
 }
-/* end of dropdown menu */
+ /* end of dropdown menu */
 
 .navbar .fa-stack {
 	width: 2em;
